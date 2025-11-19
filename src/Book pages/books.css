@@ -1,0 +1,72 @@
+.book-card {
+    height: 400px;
+    width: 400px;
+    background: linear-gradient(90deg, rgb(46, 73, 50) 0%, rgb(46, 73, 50) 7.692%, rgb(54, 80, 59) 7.692%, rgb(54, 80, 59) 15.385%, rgb(62, 87, 68) 15.385%, rgb(62, 87, 68) 23.077%, rgb(70, 94, 77) 23.077%, rgb(70, 94, 77) 30.769%, rgb(77, 101, 85) 30.769%, rgb(77, 101, 85) 38.462%, rgb(84, 107, 92) 38.462%, rgb(84, 107, 92) 46.154%, rgb(90, 113, 99) 46.154%, rgb(90, 113, 99) 53.846%, rgb(95, 119, 104) 53.846%, rgb(95, 119, 104) 61.538%, rgb(99, 124, 109) 61.538%, rgb(99, 124, 109) 69.231%, rgb(102, 128, 112) 69.231%, rgb(102, 128, 112) 76.923%, rgb(104, 131, 114) 76.923%, rgb(104, 131, 114) 84.615%, rgb(104, 134, 115) 84.615%, rgb(104, 134, 115) 92.308%, rgb(103, 136, 115) 92.308%, rgb(103, 136, 115) 100%);
+    display: flex;
+    flex-direction: column;
+    color: beige;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px gray;
+    align-items: center;
+}
+
+.book-card .book-image img {
+    height: 200px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.book-card div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    width: 85%;
+
+}
+
+.book-card .book-title {
+    display: flex;
+    gap: 10px;
+    align-items: end;
+    border-bottom: solid 1px beige;
+}
+
+.book-card .book-author {
+    display: flex;
+    gap: 10px;
+    align-items: end;
+    border-bottom: solid 1px beige;
+}
+
+.book-card .condition {
+    display: flex;
+    gap: 10px;
+    align-items: end;
+    border-bottom: solid 1px beige;
+}
+
+.b .book-card div h3 {
+    width: 30%;
+}
+
+.book-card div p {
+    width: 70%;
+}
+
+.book-card .request {
+    align-self: center;
+}
+
+.book-card .request button {
+    outline: none;
+    cursor: pointer;
+    height: 50px;
+}
+
+.book-card .request button:hover {
+    color: aliceblue;
+    background-color: blueviolet;
+    transform: scale(1.05);
+    transition-duration: 1s;
+}

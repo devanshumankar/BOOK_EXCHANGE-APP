@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(194, 152, 234), blueviolet);
+}
+
+.container {
+    height: 85vh;
+    width: 85vw;
+    background-image: url("src/Images/login-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: fit-content;
+    width: 35%;
+    align-items: center;
+    border: solid 1px white;
+    z-index: 2;
+    justify-content: center;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 20px 0px;
+}
+
+.container form h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.container form input {
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    outline: none;
+    height: 40px;
+    width: 300px;
+    padding: 15px;
+}
+
+.container form button {
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    outline: none;
+    padding: 10px;
+    width: 100px;
+    height: 40px;
+}
+
+.container form input::placeholder {
+    color: white;
+}
+
+.reg-link {
+    text-decoration: none;
+    margin-left: 4px;
+    color: palegreen;
+}
