@@ -283,7 +283,6 @@
 }
 
 .user-book div {
-    /* border: solid 1px beige; */
     width: 80%;
 }
 
@@ -484,3 +483,4 @@
 .my-requests-container {
     min-height: 90vh;
 }
+
