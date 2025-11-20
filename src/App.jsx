@@ -12,6 +12,7 @@ import RequestBook from './Book pages/RequestBook'
 import AdminDashboard from './Book pages/AdminDashBoard'
 import ExchangeDetails from './Book pages/ExchangeDetails'
 import MyRequests from './Book pages/MyRequests'
+
 function App() {
   const router = createBrowserRouter([
     {
@@ -57,7 +58,7 @@ function App() {
         {
           path: "myrequests",
           element: <MyRequests />
-        }
+        },
       ]
     }
   ])
